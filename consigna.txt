@@ -1,0 +1,71 @@
+Proyecto final
+
+Qué debes realizar
+El objeto de esta última etapa es poder construir un cotizador de seguros de hogar, o un
+cotizador de seguros de otro tipo, en una aplicación web construída con React.
+
+Puedes tomar como modelo el cotizador de seguros de hogar realizado durante la cursada
+JavaScript. Te compartimos a continuación el código fuente del mismo y el proyecto funcional
+para que lo tomes como referencia:
+Repositorio: https://github.com/untref-fullstack/cotizador-hogar
+Github Pages: https://untref-fullstack.github.io/cotizador-hogar/
+
+
+Objetivos
+
+Para cerrar el curso, buscamos que presentes como proyecto final del tramo de cursado de
+React, este proyecto integrador, el cual aúna las herramientas principales de la librería JS más
+popular.
+
+Puedes optar por replicar el modelo compartido como también agregarle tu toque personal,
+incrementando su capacidad técnica con características adicionales o cambiando el rumbo del
+cotizador para que se oriente a otro tipo de proceso el cual, tal vez, te resulte más conocido.
+
+La página principal del cotizador cuenta con al menos tres
+componentes básicos, seleccionables o a cargar con
+información por parte del usuario. Dispone también de un
+botón para visualizar la cotización, la cual se muestra en
+pantalla.
+
+Cuenta con validaciones de carga de datos, las cuales
+previenen y notifican al usuario ante la ausencia de
+información necesaria.
+
+Además cuenta con un apartado donde el mismo usuario
+podrá visualizar el historial de cotizaciones realizadas
+previamente.
+
+En el apartado Historial, encontraremos una tabla o
+grilla donde visualizar el historial de cotizaciones
+realizadas por el usuario. Como información, debemos
+guardar:
+
+
+ - fecha y hora de la cotización
+ - Valores seleccionados o cargados por el usuario
+ - El importe de la póliza mensual
+
+También debe contar con un botón o hipervínculo que
+permite al usuario volver a la página principal del
+proyecto.
+
+Consigna técnica
+
+La aplicación web debe estar construída utilizando React, y debe ser una SPA. En la misma se deben aplicar la mayoría de los conceptos vistos
+durante la cursada de especialización en JavaScript.
+
+Puedes consultar una API remota como el servicio de MOCKAPI, o crear tu propio archivo JSON consumiendo el mismo con la tecnología
+AJAX.
+
+Debes renderizar los datos en pantalla. Utiliza el framework CSS o Vanilla CSS para construir la interfaz de acuerdo a tu parecer.
+
+Tomando como modelo el cotizador de seguros de hogar, los datos visualizados en los combo SELECT, deben venir de un archivo JSON o
+de una API consultada mediante un endpoint.
+
+Integra el manejo de estados con useState, useContext ó Redux, de acuerdo a tu conveniencia.
+
+Construye su interfaz basada en componentes e integra el uso de Routing para crear sus diferentes secciones (home - historial), más
+cualquier otra que consideres necesario agregar.
+
+El historial de cotizaciones, debe persistir. El usuario puede salir del proyecto y volver a ingresar en otro momento, y seguir visualizando
+dicho historial.
